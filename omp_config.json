@@ -95,61 +95,61 @@
           "type": "python",
           "style": "plain",
           "foreground": "p:terminal-yellow",
-          "template": "\uE235 {{ .Full }}"
+          "template": "\uE235 {{ .Full }} "
         },
         {
           "type": "julia",
           "style": "plain",
           "foreground": "p:terminal-magenta",
-          "template": "\uE624 {{ .Full }}"
+          "template": "\uE624 {{ .Full }} "
         },
         {
           "type": "ruby",
           "style": "plain",
           "foreground": "p:terminal-red",
-          "template": "\uE791 {{ .Full}}"
+          "template": "\uE791 {{ .Full}} "
         },
         {
           "type": "go",
           "style": "plain",
           "foreground": "p:light-sky-blue",
-          "template": "\uFCD1 {{ .Full}}"
+          "template": "\uFCD1 {{ .Full}} "
         },
         {
           "type": "java",
           "style": "plain",
           "foreground": "p:terminal-yellow",
-          "template": "  {{ .Full }}"
+          "template": " {{ .Full }} "
         },
         {
           "style": "plain",
           "type": "docker",
           "foreground": "p:terminal-blue",
-          "template": "  {{ .Context }} "
+          "template": " {{ .Context }} "
         },
         {
           "type": "cmake",
           "style": "plain",
           "foreground": "p:pistachio-green",
-          "template": "   cmake {{ .Full }} "
+          "template": "  {{ .Full }} "
         },
         {
           "type": "r",
           "style": "plain",
           "foreground": "blue",
-          "template": " R {{ .Full }} "
+          "template": "R {{ .Full }} "
         },
         {
           "type": "react",
           "style": "plain",
           "foreground": "#81a1c1",
-          "template": "  {{ .Full }} "
+          "template": " {{ .Full }} "
         },
         {
           "type": "rust",
           "style": "plain",
           "foreground": "p:terminal-red",
-          "template": "  {{ .Full }} "
+          "template": " {{ .Full }} "
         },
         {
           "type": "unity",
@@ -163,11 +163,11 @@
           "type": "spotify",
           "style": "plain",
           "foreground": "p:pistachio-green",
-          "template": " {{.Icon}}",
+          "template": " {{.Icon}} ",
           "properties": {
-            "playing_icon": " ",
-            "paused_icon": " ",
-            "stopped_icon": " "
+            "playing_icon": "",
+            "paused_icon": "",
+            "stopped_icon": ""
           }
         },
         {
