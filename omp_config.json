@@ -133,7 +133,7 @@
           "type": "cmake",
           "style": "plain",
           "foreground": "p:pistachio-green",
-          "template": "  {{ .Full }} "
+          "template": "<p:pistachio-green></><p:terminal-red></><p:terminal-blue></p:terminal-blue> {{ .Full }} "
         },
         {
           "type": "r",
